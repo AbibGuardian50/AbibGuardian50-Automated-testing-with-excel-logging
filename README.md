@@ -17,6 +17,9 @@ This project demonstrates a data-driven login automation test using Katalon Stud
 
     🌐 Target site: [Practice Test Automation Login Page](https://practicetestautomation.com/practice-test-login/)
 
+    This site was built using [GitHub Pages](https://pages.github.com/).
+
+This site was built using [GitHub Pages](https://pages.github.com/).
 📸 Sample Output
 
 ![image](https://github.com/user-attachments/assets/b91ff513-fc47-4805-9127-51291dbe5168)
