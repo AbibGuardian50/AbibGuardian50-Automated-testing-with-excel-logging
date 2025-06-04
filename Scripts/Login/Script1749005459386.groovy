@@ -27,7 +27,7 @@ TestData loginData = findTestData('Login user')
 // Create a new workbook and sheet to store login results
 Workbook workbook = new XSSFWorkbook()
 
-Sheet sheet = workbook.createSheet('Hasil Login')
+Sheet sheet = workbook.createSheet('Login Result')
 
 // Create header row
 Row headerRow = sheet.createRow(0)
@@ -97,5 +97,5 @@ workbook.write(outFile)
 
 outFile.close()
 
-println('✅ Hasil login disimpan di LoginResults.xlsx')
+println('✅ The login results have been saved in LoginResults.xlsx.')
 
