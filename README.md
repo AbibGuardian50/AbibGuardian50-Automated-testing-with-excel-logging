@@ -1,4 +1,4 @@
-🔐 Automated Login Testing with Katalon Studio and Excel Reporting
+
 
 📄 Project Overview
 
