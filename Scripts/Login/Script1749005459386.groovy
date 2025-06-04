@@ -36,7 +36,7 @@ headerRow.createCell(0).setCellValue('Username')
 
 headerRow.createCell(1).setCellValue('Password')
 
-headerRow.createCell(2).setCellValue('Hasil')
+headerRow.createCell(2).setCellValue('Result')
 
 for (int i = 1; i <= loginData.getRowNumbers(); i++) {
     WebUI.navigateToUrl('https://practicetestautomation.com/practice-test-login/')
@@ -72,11 +72,11 @@ for (int i = 1; i <= loginData.getRowNumbers(); i++) {
 
     // Print result
     if (loginsuccess) {
-        println("✅ Login berhasil untuk user: $username")
+        println("✅ Login success for user: $username")
     } else if (logininvalid) {
-        println("❌ Login gagal untuk user: $username")
+        println("❌ Login fail for user: $username")
     } else {
-        println("⚠️ Status login tidak diketahui untuk user: $username")
+        println("⚠️ Status login unknown for user: $username")
     }
 
     // Write to Excel
