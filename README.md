@@ -19,6 +19,11 @@ This project demonstrates a data-driven login automation test using Katalon Stud
 
 📸 Sample Output
 
-Username	Password	Hasil
-student	Password123	Login Successful
-wronguser	wrongpass	Login Failed
+Username	Password	Result
+user1	pass123	Login Failed
+user2	pass124	Login Failed
+user3	pass125	Login Failed
+user4	pass126	Login Failed
+student	Password123	Login Successfull
+![image](https://github.com/user-attachments/assets/e78777f7-f53f-4ead-bc45-988d2065e94f)
+
