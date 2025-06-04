@@ -41,8 +41,8 @@ headerRow.createCell(2).setCellValue('Result')
 for (int i = 1; i <= loginData.getRowNumbers(); i++) {
     WebUI.navigateToUrl('https://practicetestautomation.com/practice-test-login/')
 
-    String username = loginData.getValue('Username', i)
-    String password = loginData.getValue('Password', i)
+     username = loginData.getValue('Username', i)
+     password = loginData.getValue('Password', i)
 
     WebUI.setText(findTestObject('Page_Test Login  Practice Test Automation/input_Username_username'), username)
     WebUI.setText(findTestObject('Page_Test Login  Practice Test Automation/Page_Test Login  Practice Test Automation/input_Password_password'), password)
