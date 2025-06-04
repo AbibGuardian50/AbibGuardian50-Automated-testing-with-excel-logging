@@ -17,7 +17,7 @@ This project demonstrates a data-driven login automation test using Katalon Stud
 
     🌐 Target site: [Practice Test Automation Login Page](https://practicetestautomation.com/practice-test-login/)
 
-[Target Site](https://practicetestautomation.com/practice-test-login/).
+[Target Site](https://practicetestautomation.com/practice-test-login/)
    
 📸 Sample Output
 
