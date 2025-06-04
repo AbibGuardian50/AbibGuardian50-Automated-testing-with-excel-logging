@@ -18,6 +18,26 @@ This project demonstrates a data-driven login automation test using Katalon Stud
     🌐 Target site: [Practice Test Automation Login Page](https://practicetestautomation.com/practice-test-login/)
 
 [Target Site](https://practicetestautomation.com/practice-test-login/)
+
+🧪 Test Flow
+
+    1. Open Browser and Navigate to the login page.
+
+    2. Fetch Username & Password from Excel test data.
+
+    3. Submit Login Form using Katalon WebUI commands.
+
+    4. Check Login Outcome:
+
+        If page URL changes → success → check for success message.
+
+        If page URL stays the same → likely failure → check for error message.
+
+    5. Write Result to Excel: Successful / Failed / Unknown.
+
+    6. Close Browser.
+
+    7. Export Results to LoginResults.xlsx.
    
 📸 Sample Output
 
