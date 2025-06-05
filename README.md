@@ -35,6 +35,20 @@ This project demonstrates a data-driven login automation test using Katalon Stud
     6. Close Browser.
 
     7. Export Results to LoginResults.xlsx.
+
+
+🚀 How to Run the Project
+
+    1. Clone the repository
+    
+    2. Open Katalon Studio, go to File > Open Project, and select the cloned folder.
+
+    3. Open the test case: LoginTestWithExcelLogging, then click ▶️ to execute.
+
+    4. The test results will be saved automatically in:
+        /project-root/LoginResults.xlsx
+
+
    
 📸 Sample Output
 
